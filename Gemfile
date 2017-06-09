@@ -12,6 +12,7 @@ gem 'rails', '~> 5.0.3'
 gem 'devise'
 gem 'sqlite3'
 gem 'pg'
+gem 'taps'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 gem 'bcrypt-ruby'
