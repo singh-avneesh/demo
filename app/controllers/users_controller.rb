@@ -1,7 +1,8 @@
 class UsersController < ApplicationController
  skip_before_action :new, only: [:show, :edit, :update, :destroy]
 
-  # GET /users
+
+ # GET /users
   # GET /users.json
   def index
     @users = User.all
